@@ -1,7 +1,7 @@
 {
   "name": "react-tailwhip",
-  "version": "1.0.0",
-  "description": "A Theme library",
+  "version": "0.0.1",
+  "description": "A Theme library for react and emotion users",
   "author": "qhoekman",
   "license": "MIT",
   "repository": "qhoekman/react-tailwhip",
@@ -21,7 +21,9 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@emotion/css": "^10.0.9"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",

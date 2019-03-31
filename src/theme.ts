@@ -81,3 +81,5 @@ export const Theme = {
     ...GridSettings
   }
 };
+
+export declare type Color = keyof typeof Theme.colors;

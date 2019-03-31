@@ -5,3 +5,4 @@ import { Theme as DefaultTheme } from './theme';
  */
 
 export default DefaultTheme;
+export * from './helpers';
